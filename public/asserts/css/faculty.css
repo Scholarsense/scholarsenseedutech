@@ -1,0 +1,304 @@
+.dreamTeam_TdPopup__iSYUx {
+  display: none !important;
+}
+
+@media (hover: none) and (pointer: coarse) and (max-width: 900px) {
+  .dreamTeam_TdPopup__iSYUx {
+    display: flex !important;
+  }
+
+  .dreamTeam_YoutubePopup__avW2L {
+    display: none !important;
+  }
+}
+
+.dreamTeam_dreamTeamBanner__tWm6g {
+  background: #bee66d6b;
+  /* padding: 3rem 0 */
+  padding: 2rem 2rem 1.5rem;
+}
+
+.dreamTeam_dreamTeam__8Cvjt {
+  padding: 0rem 0 !important;
+}
+
+.dreamTeam_dreamTeam-section__wRfgK h2 {
+  font-weight: 700;
+  font-size: 2.6rem;
+  line-height: 120%;
+  color: #3c4852;
+  padding-top: 14rem;
+}
+
+@media (max-width: 900px) {
+  .dreamTeam_dreamTeam-section__wRfgK h2 {
+    padding-top: 12rem;
+  }
+}
+
+.dreamTeam_dreamTeam-list-bg__YJ_op {
+  background: url(https://image.prepladder.com/content/S0CFSjzhXfjgroYBIaDG1672810861.png);
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.dreamTeam_dreamTeam-list-bg__YJ_op:nth-child(n + 3) {
+  background: url(https://image.prepladder.com/content/vuqcfOYmh0mm9i3hTiVV1672813638.png);
+}
+
+.dreamTeam_dreamTeam-list-bg__YJ_op img {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  max-width: 245px;
+  margin: auto;
+}
+
+.dreamTeam_dreamTeam-list__JTLqK ul > div {
+  margin-top: 3.2rem;
+}
+
+.dreamTeam_dreamTeam-list__JTLqK ul li {
+  background: #fff;
+  padding: 2.2rem 6rem 2.2rem 2.2rem;
+  box-shadow: 0 16px 32px rgba(233, 238, 242, 0.4);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .dreamTeam_dreamTeam-list__JTLqK ul li {
+    padding: 2.2rem;
+    column-gap: 1.6rem;
+    column-gap: 12px;
+  }
+}
+
+.dreamTeam_dreamTeam-list-img__PwmR_ {
+  margin-right: 2.4rem;
+  min-width: 40%;
+  max-width: 40%;
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  .dreamTeam_dreamTeam-list-img__PwmR_ {
+    max-width: 100%;
+    margin-right: 0;
+    min-width: 45%;
+  }
+}
+
+@media (min-width: 0) and (max-width: 420px) {
+  .dreamTeam_dreamTeam-list-img__PwmR_ {
+    min-width: 130px;
+  }
+}
+
+.dreamTeam_dreamTeam-list-img__PwmR_ img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.dreamTeam_dreamTeam-list-img__PwmR_ .dreamTeam_videoIcon__8QueD {
+  margin-top: -6.3rem;
+  margin-left: 1.5rem;
+  z-index: 1;
+  position: absolute;
+}
+
+@media (max-width: 600px) {
+  .dreamTeam_dreamTeam-list-img__PwmR_ .dreamTeam_videoIcon__8QueD {
+    margin-top: -5rem;
+    margin-left: 1rem;
+  }
+}
+
+.dreamTeam_dreamTeam-list-img__PwmR_ .dreamTeam_videoIcon__8QueD img {
+  width: 4.8rem;
+}
+
+@media (max-width: 600px) {
+  .dreamTeam_dreamTeam-list-img__PwmR_ .dreamTeam_videoIcon__8QueD img {
+    width: 32px;
+  }
+}
+
+.dreamTeam_dreamTeam-list__JTLqK .dreamTeam_dreamTeam-content__WEVSS p {
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  text-overflow: ellipsis;
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  max-height: 4.8em;
+}
+
+.dreamTeam_dreamTeam-list__JTLqK
+  .dreamTeam_dreamTeam-content__WEVSS
+  .dreamTeam_revealingSoonImg__AOmGQ {
+  max-width: 57%;
+  margin-top: 1rem;
+}
+
+@media (max-width: 600px) {
+  .dreamTeam_dreamTeam-list__JTLqK
+    .dreamTeam_dreamTeam-content__WEVSS
+    .dreamTeam_revealingSoonImg__AOmGQ {
+    max-width: 100%;
+  }
+
+  .dreamTeam_dreamTeam-list__JTLqK .dreamTeam_dreamTeam-content__WEVSS button {
+    padding: 7px 2rem;
+    font-size: 12px;
+  }
+}
+
+.dreamTeam_dreamTeam-content__WEVSS h4 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #3c4852;
+}
+
+@media (min-width: 0) and (max-width: 420px) {
+  .dreamTeam_dreamTeam-content__WEVSS h4 {
+    font-size: 16px;
+    margin-top: 3px;
+  }
+}
+
+.dreamTeam_dreamTeam-content__WEVSS .dreamTeam_subName__pLKE7 {
+  color: var(--dash-blue-1);
+  font-size: 1.6rem;
+  margin: 1rem 0 1.2rem;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .dreamTeam_dreamTeam-content__WEVSS .dreamTeam_subName__pLKE7 {
+    font-size: 14px;
+    margin-top: 3px;
+  }
+}
+
+.dreamTeam_dreamTeam-content__WEVSS p {
+  color: var(--text);
+  font-size: 1.6rem;
+  margin: 0 0 3.2rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .dreamTeam_dreamTeam-content__WEVSS p {
+    margin-bottom: 16px;
+  }
+}
+
+@media (min-width: 0) and (max-width: 420px) {
+  .dreamTeam_dreamTeam-content__WEVSS p {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+}
+
+.dreamTeam_dreamteam-drawer-video__d2tj8 {
+  position: relative;
+  width: 100%;
+}
+
+.dreamTeam_dreamteam-drawer-video__d2tj8 iframe {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+}
+
+.dreamTeam_planList-sticky__Q_5uc {
+  width: 100% !important;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 7.4rem;
+  justify-content: center;
+  background: #e1f5ff;
+  z-index: 3;
+  padding: 2rem 0 0 !important;
+  align-items: center;
+  margin-bottom: -10rem !important;
+  column-gap: 4rem;
+  border-bottom: 1px solid #e9eef2;
+}
+
+.dreamTeam_planList-sticky__Q_5uc:hover::-webkit-scrollbar-thumb {
+  background: var(--dash-font-color3);
+}
+
+.dreamTeam_planList-sticky__Q_5uc::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.dreamTeam_planList-sticky__Q_5uc::-webkit-scrollbar {
+  width: 4px;
+  background: transparent;
+  height: 4px;
+}
+
+.dreamTeam_planList-sticky__Q_5uc::-webkit-scrollbar-thumb {
+  border-radius: 40px;
+  background: transparent;
+}
+
+@media (max-width: 900px) {
+  .dreamTeam_planList-sticky__Q_5uc {
+    top: 5.1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .dreamTeam_planList-sticky__Q_5uc {
+    justify-content: left;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.dreamTeam_planList-sticky__Q_5uc li {
+  display: flex;
+}
+
+.dreamTeam_planList-sticky__Q_5uc li a {
+  padding: 0 1rem 1.6rem;
+  border-bottom: 2px solid transparent;
+}
+
+.home_planNew-menu__qwyW1 {
+  width: -moz-fit-content;
+  /* width: fit-content; */
+  overflow: auto;
+  max-width: 100%;
+  padding: 4rem 0 2rem;
+  margin: auto;
+}
+
+.home_planNew-menu__qwyW1 li {
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin: 0 0.8rem;
+  flex: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  color: var(--text);
+}

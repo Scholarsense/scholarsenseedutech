@@ -1,0 +1,9 @@
+/* styles.css or a global CSS file */
+:root {
+    --dash-font-color1: #333; /* Replace with your desired color */
+    --dash-white: #fff;
+    --dash-bg-color1: #ccc; /* Replace with your desired color */
+    --dash-grey: grey;
+    --dash-skyblue: skyblue;
+  }
+   

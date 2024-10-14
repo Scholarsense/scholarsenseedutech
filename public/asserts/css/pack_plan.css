@@ -1,0 +1,321 @@
+.packPlan_TdPopup__NkEgv {
+  display: none !important;
+}
+
+@media (hover: none) and (pointer: coarse) and (max-width: 900px) {
+  .packPlan_TdPopup__NkEgv {
+    display: flex !important;
+  }
+
+  .packPlan_YoutubePopup__qzVXU {
+    display: none !important;
+  }
+}
+
+.packPlan_packPlan__sFlwy {
+  justify-content: center;
+  column-gap: 8rem;
+  padding-top: 5rem;
+  flex-wrap: wrap;
+  row-gap: 4rem;
+}
+
+.packPlan_packPlan-tab__V4rJZ {
+  background: #e9eef2;
+  border-radius: 3.2rem;
+  display: inline-block;
+  margin: 2.6rem 0 4rem;
+}
+
+.packPlan_packPlan-tab__V4rJZ ul {
+  padding: 0.8rem;
+  display: flex;
+  column-gap: 0.4rem;
+}
+
+.packPlan_packPlan-tab__V4rJZ ul li button {
+  padding: 1.2rem 1.6rem;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.packPlan_packPlan-tab__V4rJZ ul li button.packPlan_active__v0qlc,
+.packPlan_packPlan-tab__V4rJZ ul li button:hover {
+  background: #fff;
+  box-shadow: 0 16px 32px rgba(233, 238, 242, 0.4);
+  border-radius: 32px;
+}
+
+.packPlan_packPlan-main__gIFdx {
+  padding: 8rem 0;
+  background: #f7f9fb;
+}
+
+.packPlan_packPlan-recommend__fRbR4 {
+  position: absolute;
+  background: #f7f9fb;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 1.2rem 0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -2rem;
+  white-space: nowrap;
+}
+
+.packPlan_packPlan-recommend__fRbR4 span {
+  padding: 0.8rem 1.2rem;
+  border-radius: 4px;
+}
+
+.packPlan_packPlan-off__HDvJJ {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 14px;
+  background: url(https://image.prepladder.com/content/tg3AAa5VPtbPyknHeGux1677155588.png)
+    no-repeat;
+  width: 14.5rem;
+  background-size: 100% 100%;
+  padding: 1rem;
+  flex: none;
+}
+
+.packPlan_packPlan-price__DoHi1 {
+  max-width: max-content;
+  width: 100%;
+}
+
+.packPlan_packPlan-pack__cBr_S {
+  column-gap: 1.2rem;
+  font-weight: 700;
+  font-size: 2.4rem;
+  align-items: center;
+  line-height: 24px;
+  width: 100%;
+}
+
+.packPlan_packPlan-pack__cBr_S p {
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  text-overflow: ellipsis;
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  max-height: 2.824em;
+}
+
+.packPlan_packPlan-pack__cBr_S > div {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 0.5rem;
+  padding-right: 1.2rem;
+  line-height: 1.2;
+  width: 100%;
+}
+
+.packPlan_packPlan-pack__cBr_S > div p,
+.packPlan_packPlan-pack__cBr_S > div span {
+  display: block;
+  display: -webkit-box;
+}
+
+.packPlan_packPlan-pack__cBr_S span,
+.packPlan_packPlan-pack__cBr_S > div p,
+.packPlan_packPlan-pack__cBr_S > div span {
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  max-height: 2.824em;
+}
+
+.packPlan_packPlan-pack__cBr_S span {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  display: inline-block;
+  width: 100%;
+  display: block;
+  display: -webkit-box;
+}
+
+.packPlan_packPlan-pack__cBr_S img {
+  width: 4.8rem;
+  flex: none;
+}
+
+.packPlan_packPlan-bottom__FSnAp {
+  padding: 3.2rem 2.4rem;
+  background: #fff;
+  flex: 1 1;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  border-radius: 0 0 8px 8px;
+}
+
+.packPlan_packPlan-bottom__FSnAp p {
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 150%;
+  color: #7a8b94;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  text-overflow: ellipsis;
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  max-height: 2.824em;
+}
+
+@media (max-width: 900px) {
+  .packPlan_packPlan-bottom__FSnAp p {
+    margin-top: 4rem;
+  }
+}
+
+.packPlan_packPlan-bottom__FSnAp ul {
+  padding: 2rem 0 3.4rem;
+}
+
+.packPlan_packPlan-bottom__FSnAp ul li {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 18px;
+  color: #3c4852;
+  display: flex;
+}
+
+.packPlan_packPlan-bottom__FSnAp ul li:not(:last-child) {
+  padding-bottom: 1.4rem;
+}
+
+.packPlan_packPlan-bottomText___zHDO {
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  text-overflow: ellipsis;
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  max-height: 2.824em;
+}
+
+.packPlan_packPlan-bottomIcon__Ezkgr {
+  display: flex;
+  height: 2rem;
+  width: 2rem;
+  min-width: 2rem;
+  margin-right: 1rem;
+}
+
+.packPlan_packPlan-pro__i7OPx {
+  border: 1px solid #eaf4fc;
+}
+
+.packPlan_packPlan-proOff__zpRRo {
+  color: #7a8b94;
+}
+
+.packPlan_packPlan-proBg__Iv0WJ {
+  background: #eaf4fc;
+}
+
+.packPlan_packPlan-elite__eX4F_ {
+  border: 1px solid #fff3e2;
+}
+
+.packPlan_packPlan-eliteOff__K6ec8 {
+  color: #ffc27f;
+}
+
+.packPlan_packPlan-eliteBg__aUgJd {
+  background: #fff3e2;
+}
+
+.packPlan_packPlan-inner__lk19e {
+  border-radius: 8px;
+  display: flex;
+  flex-flow: column;
+}
+
+@media (max-width: 900px) {
+  .packPlan_packPlan-inner__lk19e {
+    max-width: 100%;
+  }
+}
+
+.packPlan_packPlan-innerbg__21NtN {
+  padding: 3rem 2rem;
+  position: relative;
+  border-radius: 8px 8px 0 0;
+  height: 15rem;
+  align-items: center;
+}
+
+.packPlan_packPlan-price__DoHi1 > div {
+  display: flex;
+  column-gap: 4px;
+  align-items: center;
+}
+
+.packPlan_packPlan-price__DoHi1 p {
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 16px;
+  color: #7a8b94;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  text-overflow: ellipsis;
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  max-height: 2.824em;
+}
+
+.packPlan_packPlan-price__DoHi1 p img {
+  width: 1rem;
+  position: relative;
+  top: -4px;
+}
+
+.packPlan_packPlan-price__DoHi1 h2 {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 24px;
+  display: flex;
+}
+
+.packPlan_packPlan-price__DoHi1 h3 {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 18px;
+  color: #7a8b94;
+  text-decoration: line-through;
+  display: flex;
+}
+
+.packPlan_packPlan-dash__0HD8n {
+  max-width: 100%;
+}
+
+.packPlan_Drawer-plans__DXn8M > div {
+  box-shadow: none;
+  border-radius: unset;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,40 @@
+.marquee {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 160rem;
+}
+
+.marquee-content {
+  -webkit-animation: scrolling 50s linear infinite;
+  animation: scrolling 50s linear infinite;
+  display: flex;
+  list-style: none;
+}
+
+.marquee-item {
+  align-items: flex-end;
+  display: flex;
+  flex-shrink: 0;
+  width: 40rem;
+}
+
+.marquee-image {
+  width: 100%;
+}
+
+.marquee-image-2 {
+  width: 18.5rem;
+}
+
+.marquee-image-3 {
+  width: 45rem;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-200rem);
+  }
+}

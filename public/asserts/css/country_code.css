@@ -1,0 +1,248 @@
+.countryCode_TdPopup__zSgE5 {
+  display: none !important;
+}
+
+@media (hover: none) and (pointer: coarse) and (max-width: 900px) {
+  .countryCode_TdPopup__zSgE5 {
+    display: flex !important;
+  }
+
+  .countryCode_YoutubePopup__wnh7y {
+    display: none !important;
+  }
+}
+
+.countryCode_CountryCode01New__vCLwh .countryCode_CountryCode01_form__vOC5g {
+  border: 1px solid var(--dash-bg-color1);
+  border-radius: 8px;
+  background: var(--dash-white);
+}
+
+.countryCode_CountryCode01__poc7N {
+  display: flex;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.countryCode_CountryCode01_inner__Tmkwa {
+  position: relative;
+  width: 100%;
+}
+
+.countryCode_CountryCode01_form__vOC5g {
+  display: flex;
+  width: 100%;
+  border: 1px solid #dde6ed;
+  border-radius: 4px;
+  padding: 1.6rem;
+  align-items: center;
+}
+
+.countryCode_CountryCode01_form__vOC5g .countryCode_codeLabel__d1w4a {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: var(--dash-font-color1);
+  cursor: pointer;
+  flex: none;
+}
+
+.countryCode_CountryCode01_form__vOC5g .countryCode_codeLabel_img__zGvdW {
+  margin-left: 0.5rem;
+  height: 0.7rem;
+  width: auto;
+}
+
+.countryCode_CountryCode01_form__vOC5g .countryCode_codeLabel__d1w4a span {
+  color: var(--dash-font-color1);
+}
+
+.countryCode_CountryCode01_form__vOC5g .countryCode_codeInput__p44pH {
+  border-left: 1px solid var(--dash-bg-color1);
+  margin-left: 1.6rem;
+  padding-left: 1.2rem;
+  flex: 1 1;
+}
+
+.countryCode_CountryCode01_form__vOC5g .countryCode_codeInput__p44pH input {
+  border: 0;
+  background: transparent;
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: var(--dash-font-color1);
+  height: 100%;
+  width: 100%;
+}
+
+.countryCode_CountryCode01_form__vOC5g
+  .countryCode_codeInput__p44pH
+  input::placeholder {
+  color: var(--dash-font-color5);
+}
+
+.countryCode_CountryCode01_form__vOC5g .countryCode_sendOtp__bLTMF {
+  position: absolute;
+  right: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  color: var(--dash-font-color1);
+  cursor: pointer;
+}
+
+.countryCode_CountryCode01_form__vOC5g.countryCode_formdis__wbAJV {
+  background: #f0f4f7;
+  border-color: #f0f4f7;
+  cursor: not-allowed;
+}
+
+.countryCode_CountryCode01_form__vOC5g.countryCode_formdis__wbAJV
+  .countryCode_codeLabel__d1w4a,
+.countryCode_CountryCode01_form__vOC5g.countryCode_formdis__wbAJV input {
+  cursor: not-allowed;
+}
+
+.countryCode_CountryCode01_form__vOC5g .countryCode_no_edit__V40Bl {
+  font-size: 1.4rem;
+  line-height: 100%;
+  background: none;
+  color: var(--web-default);
+  cursor: pointer;
+  flex: none;
+}
+
+.countryCode_CountryCode01_dropdown__VwuLl {
+  /* position: absolute; */
+  background: var(--dash-bg-color2);
+  margin-top: -12px;
+  padding: 1.5rem;
+  width: 100%;
+  border-radius: 4px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.countryCode_CountryCode01_dropdown__VwuLl ul {
+  max-height: 20rem;
+  overflow-y: auto;
+  padding: 0 !important;
+}
+
+.countryCode_CountryCode01_dropdown__VwuLl ul::-webkit-scrollbar {
+  width: 0.8rem;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.countryCode_CountryCode01_dropdown__VwuLl ul::-webkit-scrollbar-thumb {
+  background: var(--dash-font-color2);
+  border-radius: 4px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.countryCode_CountryCode01_dropdown__VwuLl ul:hover::-webkit-scrollbar-thumb {
+  background: var(--dash-font-color1);
+}
+
+.countryCode_CountryCode01_dropdown__VwuLl ul li {
+  font-size: 1.2rem;
+  color: var(--dash-font-color1);
+  background: transparent;
+  border-radius: 4px;
+  padding: 8px 6px !important;
+  cursor: pointer;
+}
+
+.countryCode_CountryCode01_dropdown__VwuLl
+  ul
+  li.countryCode_active_listCode__j9DZi {
+  background: #dbeffe;
+}
+
+.countryCode_CountryCode01_dropdown__VwuLl ul li + li {
+  margin-top: 0.5rem;
+}
+
+.countryCode_CountryCode01_dropdown__VwuLl ul li span {
+  position: static !important;
+}
+
+.countryCode_CountryCode01_dropdown__VwuLl ul li * {
+  color: var(--dash-font-color1);
+}
+
+.countryCode_CountryCode01_dropdown__VwuLl ul li .countryCode_codelist__dn4Ss {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.countryCode_CountryCode01_dropdown__VwuLl
+  ul
+  li
+  .countryCode_codelist__dn4Ss
+  img {
+  max-width: 2.5rem;
+}
+
+.countryCode_CountryCode01_dropdown__VwuLl
+  ul
+  li
+  .countryCode_codelist__dn4Ss
+  span {
+  font-size: 1.5rem;
+}
+
+.countryCode_CountryCode01_dropdown__VwuLl ul li:hover {
+  background: rgba(219, 239, 254, 0.5);
+}
+
+.countryCode_CountryCode01_srh__vy0XQ {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.countryCode_CountryCode01_srh__vy0XQ input {
+  width: 100%;
+  border: 1px solid #dde6ed;
+  border-radius: 4px;
+  height: 4rem;
+  padding: 0.4rem 1rem;
+  background: var(--white);
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: var(--dash-font-color1);
+}
+
+.countryCode_CountryCode01_srh__vy0XQ input::placeholder {
+  color: var(--dash-font-color5);
+}
+
+.countryCode_CountryCode01__poc7N .countryCode_countryFlags__StAQb {
+  max-height: 2rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.countryCode_CountryCode01__poc7N .countryCode_countryFlags__StAQb img {
+  width: 2.5rem;
+  padding-right: 0.5rem;
+}
+
+.countryCode_customContrycodeCss__fdEBD
+  .countryCode_CountryCode01_inner__Tmkwa {
+  margin: 0 0;
+}
+
+.countryCode_customContrycodeCss__fdEBD .countryCode_CountryCode01_form__vOC5g {
+  border-radius: 8px;
+}
+
+.countryCode_phoneNumber__w5f0_ .countryCode_CountryCode01_inner__Tmkwa {
+  margin: 0;
+}
