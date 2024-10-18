@@ -30,7 +30,6 @@ const SlideDetails = () => {
 
         const result = await response.json(); // Parse JSON response
         setSlideContent(result); // Set the result in the state
-        console.error("RESULT",result);
         setLoading(false);
       } catch (error) {
         setError(error.message);
@@ -41,6 +40,22 @@ const SlideDetails = () => {
     fetchSlideContent();
   }, [slideId]);
 
+  // Function to update relative image paths to absolute paths
+  const updateImagePaths = (htmlContent) => {
+    const tempDiv = document.createElement('div');
+    tempDiv.innerHTML = htmlContent;
+
+    const images = tempDiv.getElementsByTagName('img');
+    for (let img of images) {
+      const src = img.getAttribute('src');
+      if (src.startsWith('/')) {
+        img.src = `${API_BASE_URL}${src}`;
+      }
+    }
+ 
+    return tempDiv.innerHTML;
+  };
+
   if (loading) {
     return <p>Loading slide content...</p>;
   }
@@ -50,15 +65,15 @@ const SlideDetails = () => {
   }
 
   return (
-    <div >
+    <div>
       {slideContent ? (
-        <div className="slideContent" >
+        <div className="slideContent">
           {/* Display the slide name */}
           <h3>{slideContent[0].display_name}</h3>
 
-          {/* Display the HTML content if available */}
+          {/* Display the HTML content with updated image paths */}
           {slideContent[0].html_content ? (
-            <div dangerouslySetInnerHTML={{ __html: slideContent[0].html_content }} />
+            <div dangerouslySetInnerHTML={{ __html: updateImagePaths(slideContent[0].html_content) }} />
           ) : (
             <p>No detailed content available.</p>
           )}
